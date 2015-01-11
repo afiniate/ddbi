@@ -1,0 +1,7 @@
+(record test_record 2
+        (foo Ddbi.Types.Int)
+        (foo2 Ddbi.Types.Float)
+        (bar Ddbi.Types.String)
+        (baz Ddbi.Types.String (name))
+        (back Test_record_embedded)
+        (book foreign-model Test_record_dependency))

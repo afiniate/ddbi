@@ -1,0 +1,3 @@
+(record test_record_embedded 2
+        (eb1 Ddbi.Types.String)
+        (eb2 Ddbi.Types.Int))

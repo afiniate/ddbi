@@ -1,0 +1,6 @@
+true: syntax(camlp4o)
+
+<*>: thread, package(core), package(core_extended), package(async), package(async_unix)
+<*>: package(threads), package(sexplib.syntax), package(sexplib), package(fieldslib.syntax)
+<*>: package(cohttp), package(cohttp.async), package(aws_async)
+<*_tests_run.*>: package(oUnit)
