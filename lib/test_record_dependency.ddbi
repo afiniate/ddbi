@@ -1,0 +1,3 @@
+(record test_record_dependency 3
+        (too Ddbi.Types.Currency)
+        (fiz_bat Ddbi.Types.Int))
