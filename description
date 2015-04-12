@@ -1,0 +1,6 @@
+DynamoDB Interface Generator
+
+This is an interface generator for interfacing with Dynamodb via
+[Aws_async](https://github.com/afiniate/aws_async). Essentially, you
+define a record in a ddbi file using lispish sexpressions and call the
+`ddbi` command on that file.
