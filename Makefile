@@ -13,8 +13,12 @@ DESC_FILE=$(CURDIR)/description
 BUILD_DEPS := vrt ounit
 DEPS=core core_extended async async_unix cohttp aws_async sexplib fieldslib
 
+EXTRA_TARGETS:=$(NAME)_exec.native
 
 vrt.mk:
 	vrt prj gen-mk
 
 -include vrt.mk
+
+install-extra:
+	cp $(LIB_DIR)/$(NAME)_exec.native $(PREFIX)/bin/$(NAME)
